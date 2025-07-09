@@ -5,6 +5,10 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        'torch', 'numpy', 'scikit-learn', 'POT'
+        'torch',
+        'numpy',
+        'scikit-learn',
+        'POT'
     ],
+    python_requires='>=3.6',
 )
